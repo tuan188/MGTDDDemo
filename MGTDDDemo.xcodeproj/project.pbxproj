@@ -37,6 +37,12 @@
 		17D9249721AE72250071220C /* LoginUseCaseMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D9249321AE72250071220C /* LoginUseCaseMock.swift */; };
 		17D9249821AE72250071220C /* LoginViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D9249421AE72250071220C /* LoginViewControllerTests.swift */; };
 		17D9249921AE72250071220C /* LoginNavigatorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D9249521AE72250071220C /* LoginNavigatorMock.swift */; };
+		17D924A621AE84C90071220C /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D924A521AE84C90071220C /* Product.swift */; };
+		17D924A821AE858B0071220C /* TestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D924A721AE858B0071220C /* TestError.swift */; };
+		17D924B521AE88370071220C /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D924B321AE88370071220C /* ProductCell.swift */; };
+		17D924B621AE88370071220C /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D924B421AE88370071220C /* ProductCell.xib */; };
+		17D924B821AE89380071220C /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D924B721AE89380071220C /* ProductViewModel.swift */; };
+		17D924BA21AE89770071220C /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D924B921AE89770071220C /* Double+.swift */; };
 		3405FF491B2BA0907B5783D8 /* Pods_MGTDDDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB14732FC22E1BE9875E748 /* Pods_MGTDDDemoTests.framework */; };
 		68F3E807DE3BF344256761A9 /* Pods_MGTDDDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20CAD51466F0656890491C45 /* Pods_MGTDDDemo.framework */; };
 /* End PBXBuildFile section */
@@ -89,6 +95,13 @@
 		17D9249321AE72250071220C /* LoginUseCaseMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginUseCaseMock.swift; sourceTree = "<group>"; };
 		17D9249421AE72250071220C /* LoginViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewControllerTests.swift; sourceTree = "<group>"; };
 		17D9249521AE72250071220C /* LoginNavigatorMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginNavigatorMock.swift; sourceTree = "<group>"; };
+		17D9249F21AE84660071220C /* FinishedProductListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishedProductListViewController.swift; sourceTree = "<group>"; };
+		17D924A521AE84C90071220C /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		17D924A721AE858B0071220C /* TestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestError.swift; sourceTree = "<group>"; };
+		17D924B321AE88370071220C /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		17D924B421AE88370071220C /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		17D924B721AE89380071220C /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		17D924B921AE89770071220C /* Double+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+.swift"; sourceTree = "<group>"; };
 		20CAD51466F0656890491C45 /* Pods_MGTDDDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGTDDDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46541EA6B71FC7E903561AE2 /* Pods-MGTDDDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGTDDDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MGTDDDemo/Pods-MGTDDDemo.release.xcconfig"; sourceTree = "<group>"; };
 		65B35D9F5B309842B85B2C78 /* Pods-MGTDDDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGTDDDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MGTDDDemoTests/Pods-MGTDDDemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -160,6 +173,7 @@
 			children = (
 				17D9249021AE72050071220C /* Scenes */,
 				17D9244821AE69A20071220C /* Info.plist */,
+				17D924A721AE858B0071220C /* TestError.swift */,
 			);
 			path = MGTDDDemoTests;
 			sourceTree = "<group>";
@@ -175,6 +189,7 @@
 		17D9245321AE6BCB0071220C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				17D924A521AE84C90071220C /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -182,6 +197,7 @@
 		17D9245421AE6BCB0071220C /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				17D9249A21AE84280071220C /* ProductList */,
 				17D9248521AE6DBA0071220C /* Login */,
 				17D9245521AE6BCB0071220C /* Storyboards */,
 				17D9245721AE6BCB0071220C /* App */,
@@ -259,6 +275,7 @@
 			children = (
 				17D9246A21AE6BCB0071220C /* UIViewController+.swift */,
 				17D9246B21AE6BCB0071220C /* UIViewController+Rx.swift */,
+				17D924B921AE89770071220C /* Double+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -300,6 +317,33 @@
 				17D9249221AE72250071220C /* LoginViewModelTests.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		17D9249A21AE84280071220C /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				17EA2AF521AF86C8008D2353 /* Finished */,
+				17D924B221AE878F0071220C /* View */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
+		17D924B221AE878F0071220C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				17D924B321AE88370071220C /* ProductCell.swift */,
+				17D924B421AE88370071220C /* ProductCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		17EA2AF521AF86C8008D2353 /* Finished */ = {
+			isa = PBXGroup;
+			children = (
+				17D9249F21AE84660071220C /* FinishedProductListViewController.swift */,
+				17D924B721AE89380071220C /* ProductViewModel.swift */,
+			);
+			path = Finished;
 			sourceTree = "<group>";
 		};
 		421CB308EB93A71A67927716 /* Pods */ = {
@@ -411,6 +455,7 @@
 				17D9243C21AE69A20071220C /* LaunchScreen.storyboard in Resources */,
 				17D9247E21AE6C7E0071220C /* Localizable.strings in Resources */,
 				17D9243921AE69A20071220C /* Assets.xcassets in Resources */,
+				17D924B621AE88370071220C /* ProductCell.xib in Resources */,
 				17D9248421AE6CB30071220C /* Login.storyboard in Resources */,
 				17D9248221AE6CAB0071220C /* Main.storyboard in Resources */,
 			);
@@ -567,8 +612,11 @@
 			files = (
 				17D9247A21AE6BCC0071220C /* UnitTestViewController.swift in Sources */,
 				17D9247421AE6BCC0071220C /* Assembler.swift in Sources */,
+				17D924B821AE89380071220C /* ProductViewModel.swift in Sources */,
+				17D924BA21AE89770071220C /* Double+.swift in Sources */,
 				17D9247B21AE6BCC0071220C /* UIViewController+.swift in Sources */,
 				17D9247021AE6BCC0071220C /* AppAssembler.swift in Sources */,
+				17D924B521AE88370071220C /* ProductCell.swift in Sources */,
 				17D9247721AE6BCC0071220C /* APIInput.swift in Sources */,
 				17D9246F21AE6BCC0071220C /* Storyboards.swift in Sources */,
 				17D9248B21AE6DDF0071220C /* LoginAssembler.swift in Sources */,
@@ -580,6 +628,7 @@
 				17D9247221AE6BCC0071220C /* AppViewModel.swift in Sources */,
 				17D9247821AE6BCC0071220C /* APIOutput.swift in Sources */,
 				17D9247D21AE6BCC0071220C /* Utils.swift in Sources */,
+				17D924A621AE84C90071220C /* Product.swift in Sources */,
 				17D9247321AE6BCC0071220C /* AppUseCase.swift in Sources */,
 				17D9247621AE6BCC0071220C /* APIService.swift in Sources */,
 				17D9247121AE6BCC0071220C /* AppNavigator.swift in Sources */,
@@ -594,6 +643,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17D9249821AE72250071220C /* LoginViewControllerTests.swift in Sources */,
+				17D924A821AE858B0071220C /* TestError.swift in Sources */,
 				17D9249921AE72250071220C /* LoginNavigatorMock.swift in Sources */,
 				17D9249621AE72250071220C /* LoginViewModelTests.swift in Sources */,
 				17D9249721AE72250071220C /* LoginUseCaseMock.swift in Sources */,

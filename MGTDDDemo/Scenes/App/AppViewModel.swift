@@ -18,12 +18,12 @@ extension AppViewModel: ViewModelType {
     }
     
     struct Output {
-        let toLogin: Driver<Void>
+        let toProductList: Driver<Void>
     }
     
     func transform(_ input: Input) -> Output {
-        let toLogin = input.loadTrigger
-            .do(onNext: navigator.toLogin)
-        return Output(toLogin: toLogin)
+        let toProductList = input.loadTrigger
+            .do(onNext: navigator.toProductList)
+        return Output(toProductList: toProductList)
     }
 }

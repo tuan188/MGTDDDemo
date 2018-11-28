@@ -9,15 +9,19 @@
 import UIKit
 
 protocol AppNavigatorType {
-    func toLogin()
+    func toProductList()
 }
 
 struct AppNavigator: AppNavigatorType {
     unowned let assembler: Assembler
     unowned let window: UIWindow
     
-    func toLogin() {
-        let vc: LoginViewController = assembler.resolve(navigationController: UINavigationController())
-        window.rootViewController = vc
+    func toProductList() {
+//        let nav = UINavigationController()
+//        let vc: ProductListViewController = assembler.resolve(navigationController: nav).then {
+//            $0.title = "Product List"
+//        }
+//        nav.viewControllers = [vc]
+//        window.rootViewController = nav
     }
 }

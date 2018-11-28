@@ -28,7 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let vm: AppViewModel = assembler.resolve(window: window)
         let input = AppViewModel.Input(loadTrigger: Driver.just(()))
         let output = vm.transform(input)
-        output.toLogin
+        output.toProductList
             .drive()
             .disposed(by: rx.disposeBag)
     }

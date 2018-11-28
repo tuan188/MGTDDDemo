@@ -1,0 +1,120 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.3.0)
+  - Alamofire (4.7.3)
+  - Differentiator (3.1.0)
+  - Localize-Swift (2.0.0)
+  - MBProgressHUD (1.1.0)
+  - MGAPIService (0.3.1):
+    - ObjectMapper (~> 3.3)
+    - RxAlamofire (~> 4.3)
+    - RxSwift (~> 4.3)
+  - MGArchitecture (0.3.2):
+    - OrderedSet (~> 3.0)
+    - RxCocoa (~> 4.3)
+    - RxSwift (~> 4.3)
+  - MGLoadMore (0.2.1):
+    - MJRefresh (~> 3.1)
+    - RxCocoa (~> 4.3)
+    - RxSwift (~> 4.3)
+  - MJRefresh (3.1.0)
+  - "NSObject+Rx (4.3.0)":
+    - RxSwift (~> 4.0)
+  - ObjectMapper (3.3.0)
+  - OrderedSet (3.0.0)
+  - Reusable (4.0.4):
+    - Reusable/Storyboard (= 4.0.4)
+    - Reusable/View (= 4.0.4)
+  - Reusable/Storyboard (4.0.4)
+  - Reusable/View (4.0.4)
+  - RxAlamofire (4.3.0):
+    - RxAlamofire/Core (= 4.3.0)
+  - RxAlamofire/Core (4.3.0):
+    - Alamofire (~> 4.5)
+    - RxSwift (~> 4)
+  - RxAtomic (4.4.0)
+  - RxBlocking (4.3.0):
+    - RxSwift (~> 4.0)
+  - RxCocoa (4.4.0):
+    - RxSwift (~> 4.0)
+  - RxDataSources (3.0.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.0):
+    - RxAtomic (~> 4.4)
+  - SDWebImage (4.4.0):
+    - SDWebImage/Core (= 4.4.0)
+  - SDWebImage/Core (4.4.0)
+  - Then (2.4.0)
+  - Validator (3.0.2)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0 (= 2.3)
+  - Localize-Swift (= 2.0)
+  - MBProgressHUD (= 1.1)
+  - MGAPIService (= 0.3.1)
+  - MGArchitecture (= 0.3.2)
+  - MGLoadMore (= 0.2.1)
+  - MJRefresh (= 3.1)
+  - "NSObject+Rx (= 4.3)"
+  - ObjectMapper (= 3.3)
+  - OrderedSet (= 3.0)
+  - Reusable (= 4.0.4)
+  - RxBlocking (= 4.3)
+  - RxDataSources (= 3.0)
+  - SDWebImage (= 4.4)
+  - Then (= 2.4)
+  - Validator (= 3.0.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ActionSheetPicker-3.0
+    - Alamofire
+    - Differentiator
+    - Localize-Swift
+    - MBProgressHUD
+    - MGAPIService
+    - MGArchitecture
+    - MGLoadMore
+    - MJRefresh
+    - "NSObject+Rx"
+    - ObjectMapper
+    - OrderedSet
+    - Reusable
+    - RxAlamofire
+    - RxAtomic
+    - RxBlocking
+    - RxCocoa
+    - RxDataSources
+    - RxSwift
+    - SDWebImage
+    - Then
+    - Validator
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: eef157d75e151f255c5333d26656c7fbfe905a51
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  Localize-Swift: c798ec9286494866f7068f85f7c71283ac5bdab4
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MGAPIService: 96edc9735c999bca782a7858d9efefb494e27463
+  MGArchitecture: 035b438e272d7e2bce82e0a19dc409499c1f868d
+  MGLoadMore: a2b1c878a50b2b5f13c10e2bc861250fed61fb16
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  "NSObject+Rx": 9a5eeff5e08156f849fa973514456f28eef08742
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  OrderedSet: b990e16dcf6b79f1d3826b996b1eb613c696eec0
+  Reusable: 7fc772097df3e5fc86f59d8a7af9708e49b5ff55
+  RxAlamofire: 09624d0f2d48ed8b686e4eb4cf68e28cbd2df556
+  RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxBlocking: ab8b3ac2aa5d030146fe3a3e7916d8efa202beae
+  RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
+  RxDataSources: 5a5ad827b6ad91730bb4b3ed87739f28a7be3d84
+  RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
+  SDWebImage: b534502786e43dde36dfcaee89356fe6df30e203
+  Then: 71866660c7af35a7343831f7668e7cd2b62ee0f2
+  Validator: bf211c1d71b3f910d230c09c70e62429d0fef63a
+
+PODFILE CHECKSUM: c461cef3c9bd7ef0061af94e8873c1b7dc249395
+
+COCOAPODS: 1.5.3

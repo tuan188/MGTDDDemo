@@ -9,10 +9,15 @@
 import UIKit
 
 protocol AppNavigatorType {
-
+    func toLogin()
 }
 
 struct AppNavigator: AppNavigatorType {
     unowned let assembler: Assembler
     unowned let window: UIWindow
+    
+    func toLogin() {
+        let vc: LoginViewController = assembler.resolve(navigationController: UINavigationController())
+        window.rootViewController = vc
+    }
 }

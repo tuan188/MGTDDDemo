@@ -7,8 +7,8 @@
 //
 
 protocol Assembler: class,
-    AppAssembler
-{
+    LoginAssembler,
+    AppAssembler {
     
 }
 
